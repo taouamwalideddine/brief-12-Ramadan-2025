@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.post-card {
+    @apply bg-[#243447] border border-[#c4a484] rounded-lg p-6 mb-6;
+}
+
+.post-title {
+    @apply text-xl font-bold text-[#c4a484] mb-2;
+}
+
+.create-button {
+    @apply px-4 py-2 bg-[#0f4c44] text-[#c4a484] rounded-lg hover:bg-[#c4a484] hover:text-[#1a1f2c];
+}
+
+.comment-input {
+    @apply w-full p-2 rounded-md bg-[#1a1f2c] border-[#c4a484] text-[#c4a484] mb-4;
+}
